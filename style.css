@@ -7,7 +7,7 @@
 }
 
 * {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     box-sizing: border-box;
 }
@@ -25,7 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 1px);
-    margin: 1.25rem;
+    margin: 0 1.25em;
 }
 
 .container {
@@ -34,6 +34,7 @@ body {
     border-radius: 0.625rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     margin: 2rem;
+    max-width: 400px;
 }
 
 .container img {
@@ -59,10 +60,4 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-}
-
-@media (min-width: 500px) {
-    .container {
-        width: 400px;
-    }
 }
